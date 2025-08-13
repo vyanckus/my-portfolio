@@ -24,24 +24,24 @@
 
 ### Java-проекты
 
-1. **ApplicationFibonacciTesting**
+1. **SpringNewsApi**
+   * Веб-приложение для управления новостной лентой и категориями новостей
+   * Технологии: Spring Boot, Spring JPA, Liquibase, PostgreSQL
+   * [Ссылка на репозиторий](java/SpringNewsApi)
+
+2. **ApplicationFibonacciTesting**
    * Приложение с различными техниками тестирования Spring Boot приложения для вычисления и хранения чисел Фибоначчи
    * Технологии: JUnit 5, Mockito
    * [Ссылка на репозиторий](java/ApplicationFibonacciTesting)
 
-2. **CreateWebsiteMap**
+3. **CreateWebsiteMap**
    * Многопоточное приложение для рекурсивного построения карты веб-сайта с использованием ForkJoinPool
    * [Ссылка на репозиторий](java/CreateWebsiteMap)
 
-3. **DataCollector**
+4. **DataCollector**
    * Приложение для сбора данных из различных источников (веб-страницы, JSON, CSV) и генерации JSON-файлов
    * Использовалось для работы с данными московского метро
    * [Ссылка на репозиторий](java/DataCollector)
-
-4. **SpringNewsApi**
-   * Веб-приложение для управления новостной лентой и категориями новостей
-   * Технологии: Spring Boot, Spring JPA, Liquibase, PostgreSQL
-   * [Ссылка на репозиторий](java/SpringNewsApi)
 
 5. **SQLAndHibernate**
    * Демонстрация работы с MySQL через Hibernate
@@ -64,9 +64,6 @@
    * Технологии: HTML, CSS, JavaScript
    * [Ссылка на репозиторий](frontend/list-of-students)
 
-4. **game-aim-training**
-   * Игра на JavaScript для тренировки скорости реакции и точности
-   * [Ссылка на репозиторий](frontend/game-aim-training)
 
 ## Образование и сертификация
 
