@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список студентов</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <!-- Этап 1. Создайте верстку элементов, которые будут статичны (неизменны).  -->
+    <div class="container">
+        <h1>Список студентов</h1>
+
+        <!-- Фильтры -->
+        <div class="filters">
+            <input type="text" id="filterFIO" placeholder="ФИО">
+            <input type="text" id="filterFaculty" placeholder="Факультет">
+            <input type="number" id="filterStartYear" placeholder="Год начала">
+            <input type="number" id="filterEndYear" placeholder="Год окончания">
+        </div>
+
+        <!-- Таблица студентов -->
+        <table id="studentsTable">
+            <thead>
+                <tr>
+                    <th data-sort="fio">ФИО</th>
+                    <th data-sort="faculty">Факультет</th>
+                    <th data-sort="birthDate">Дата рождения (Возраст)</th>
+                    <th data-sort="studyYears">Годы обучения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Строки таблицы будут добавляться здесь -->
+            </tbody>
+        </table>
+
+        <!-- Форма добавления студента -->
+        <h2>Добавить студента</h2>
+        <form id="addStudentForm">
+            <input type="text" id="name" placeholder="Имя" required>
+            <input type="text" id="surname" placeholder="Фамилия" required>
+            <input type="text" id="patronymic" placeholder="Отчество" required>
+            <input type="date" id="birthDate" required>
+            <input type="number" id="startYear" placeholder="Год начала обучения" min="2000" max="2024" required>
+            <input type="text" id="faculty" placeholder="Факультет" required>
+            <button type="submit">Добавить студента</button>
+            <div id="validationMessages"></div>
+        </form>
+    </div>
+</body>
+
+</html>
