@@ -24,7 +24,7 @@
 
 ## Ссылка на сайт
 
-[Открыть сайт](index.html)
+[Демо](https://vyanckus.github.io/my-portfolio/frontend/weblayout-euclid/)
 
 *Просто откройте файл `index.html` в браузере, чтобы просмотреть сайт.*
 
