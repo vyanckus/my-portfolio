@@ -56,7 +56,8 @@
    * [Ссылка на репозиторий](frontend/weblayout-blanchard)
 
 2. **weblayout-euclid**
-   * [Описание проекта Euclid]
+   * Адаптивная верстка одностраничного сайта по макету Figma
+   * Технологии: HTML, CSS (Pixel Perfect)
    * [Ссылка на репозиторий](frontend/weblayout-euclid)
 
 3. **list-of-students**
