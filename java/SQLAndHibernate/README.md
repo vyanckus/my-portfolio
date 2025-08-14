@@ -32,6 +32,7 @@
 
 ## Схема базы данных
 
+<img width="1600" height="498" alt="unnamed_XFj0QJw" src="https://github.com/user-attachments/assets/33e1d27f-bc59-4936-ac8d-d18aced7e58f" />
 
 
 ## Инструкции по установке и запуску
