@@ -24,9 +24,7 @@
 
 ## Демо
 
-[Открыть демо-версию](index.html)
-
-*Откройте файл `index.html` в браузере, чтобы увидеть работающую панель управления студентами.*
+[Демо](https://vyanckus.github.io/my-portfolio/frontend/list-of-students/)
 
 ## Инструкции по запуску
 
