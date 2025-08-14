@@ -26,8 +26,6 @@
 
 [Демо](https://vyanckus.github.io/my-portfolio/frontend/weblayout-euclid/)
 
-*Просто откройте файл `index.html` в браузере, чтобы просмотреть сайт.*
-
 ## Инструкции по запуску
 
 1.  Клонируйте репозиторий.
